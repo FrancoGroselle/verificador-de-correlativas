@@ -1,8 +1,13 @@
 package punto3;
 
+import org.junit.Before;
+import org.junit.Test;
 import punto2.domain.Alumno;
 import punto2.domain.Inscripcion;
 import punto2.domain.Materia;
+
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
 
 public class InscripcionTest {
     private Alumno alumno;
